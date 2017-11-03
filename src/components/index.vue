@@ -1,7 +1,13 @@
 <template>
   <div class="hello">
     <h1>{{ msg }}</h1>
-    <h2>Essential Links <em>reng</em></h2>
+    <h2>Essential Links <em>家庭</em></h2>
+    <p>WWF's goal is to:
+<q cite="http://www.wwf.org">
+build a future where people live in harmony with nature
+</q> we hope they succeed.</p>
+<strike>ae</strike>
+<center>这个文本居中对齐。</center>
   </div>
 </template>
 
@@ -22,8 +28,10 @@ export default {
     background:blue;
     h2{
       color:red;
+
       em{
         color:#fff;
+        font-size:1rem;
       }
     }
   }
