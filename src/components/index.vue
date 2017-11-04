@@ -1,30 +1,32 @@
 <template>
-  <div class="hello">
+  <div class="index">
+    <vue-header></vue-header>
     <h1>{{ msg }}</h1>
     <h2>Essential Links <em>家庭</em></h2>
-    <p>WWF's goal is to:
-<q cite="http://www.wwf.org">
-build a future where people live in harmony with nature
-</q> we hope they succeed.</p>
-<strike>ae</strike>
-<center>这个文本居中对齐。</center>
+    <vue-footer></vue-footer>
   </div>
 </template>
 
 <script>
+import vueHeader from './common/header.vue'
+import vueFooter from './common/footer.vue'
 export default {
   name: 'HelloWorld',
   data () {
     return {
       msg: 'Welcome to Your Vue.js App'
     }
+  },
+  components: {
+    vueHeader,
+    vueFooter
   }
 }
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="less">
-  .hello{
+  .index{
     background:blue;
     h2{
       color:red;

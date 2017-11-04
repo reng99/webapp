@@ -1,12 +1,12 @@
 <template>
-  <div class="header">
-    this is the header.
+  <div class="footer">
+    this is the footer.
   </div>
 </template>
 
 <script>
   export default {
-    name: 'header',
+    name: 'footer',
     data () {
       return {
 
@@ -16,7 +16,7 @@
 </script>
 
 <style scoped lang="less">
-  .header{
+  .footer{
     width:100%;
     height:3rem;
     background:red;
