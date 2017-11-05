@@ -1,8 +1,11 @@
 <template>
-  <div class="index">
+  <div>
     <vue-header></vue-header>
-    <h1>{{ msg }}</h1>
-    <h2>Essential Links <em>家庭</em></h2>
+    <div id="body_container" class="index">
+      <h1>{{ msg }}</h1>
+      <h2>Essential Links <em>家庭</em></h2>
+      <h1>body</h1>
+    </div>
     <vue-footer></vue-footer>
   </div>
 </template>

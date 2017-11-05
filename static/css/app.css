@@ -72,4 +72,10 @@ table{
 .main-bg{background:#f7f7f7 !important;}
 .main-border{border:1px solid #e5e5e5 !important;}
 
+/* LIMIT BODY WIDTH */
+#body_container{
+  max-width:60rem !important;
+  margin:0 auto;
+}
+
 
