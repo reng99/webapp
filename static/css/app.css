@@ -3,7 +3,7 @@ html,body,div,span,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big
 html,body{
   width: 100%;
   height: 100%;
-  background:#fff;
+  background:#f7f7f7;
 }
 html{
   line-height: 1.5;
@@ -58,16 +58,31 @@ table{
 .z1000{z-index:1000;}
 .z10000{z-index:10000;}
 .z99999{z-index:99999;}
+
 .no-margin{margin:0 !important;}
 .no-margin-top{margin-top:0 !important}
 .no-margin-right{margin-right:0 !important;}
 .no-margin-bottom{margin-bottom:0 !important;}
 .no-margin-left{margin-left:0 !important;}
+.margin-top6{margin-top:.6rem !important}
+.margin-right6{margin-right:.6rem !important}
+.margin-bottom6{margin-bottom:.6rem !important}
+.margin-left6{margin-left:.6rem !important}
+
 .no-padding{padding:0 !important;}
 .no-padding-top{padding-top:0 !important;}
 .no-padding-right{padding-right:0 !important;}
 .no-padding-bottom{padding-bottom:0 !important;}
 .no-padding-left{padding-left:0 !important;}
+.padding-top6{padding-top:.6rem !important;}
+.padding-right6{padding-right:.6rem !important;}
+.padding-bottom6{padding-bottom:.6rem !important;}
+.padding-left6{padding-left:.6rem !important;}
+
+.no-border{border:0 !important;}
+
+.border-radius6{border-radius:6rem !important;}
+
 .main-color{color:#09c7d1 !important;}
 .main-bg{background:#f7f7f7 !important;}
 .main-border{border:1px solid #e5e5e5 !important;}

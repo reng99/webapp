@@ -1,7 +1,19 @@
 <template>
-  <div class="footer">
-    this is the footer.
-  </div>
+  <footer class="page-footer">
+    <div class="container">
+      <div class="row no-margin">
+        <a href="javascript:;" class="col s3 link" v-for="tab in friLinks">
+          {{tab.name}}
+        </a>
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container">
+        <p>Copyright &copy; 2017  淘米淘，All Rights Reserved</p>
+        <p>粤ICP备17007389</p>
+      </div>
+    </div>
+  </footer>
 </template>
 
 <script>
@@ -9,16 +21,53 @@
     name: 'footer',
     data () {
       return {
-
+        friLinks: [
+          {
+            name: '关于我们',
+            url: '/article',
+            param: '1'
+          },
+          {
+            name: '诚信服务',
+            url: '/article',
+            param: '2'
+          },
+          {
+            name: '交易保障',
+            url: '/article',
+            param: '3'
+          },
+          {
+            name: '客服中心',
+            url: '/article',
+            param: '4'
+          }
+        ]
       }
     }
   }
 </script>
 
 <style scoped lang="less">
-  .footer{
-    width:100%;
-    height:3rem;
-    background:red;
+  .page-footer{
+    font-size:1.4rem;
+    background:#f7f7f7;
+    padding-bottom:4.4rem;
+    .link{
+      text-align:center;
+      border-right:.1rem solid #e5e5e5;
+      color:#666;
+      &:last-child{
+        border:0;
+      }
+    }
+    .footer-copyright{
+      font-size:1.3rem;
+      background:#f7f7f7;
+      p{
+        color:#666;
+        text-align:center;
+      }
+    }
   }
 </style>

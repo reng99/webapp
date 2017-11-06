@@ -1,17 +1,41 @@
 <template>
   <div>
-    <vue-header></vue-header>
+    <navbar></navbar>
     <div id="body_container" class="index">
       <h1>{{ msg }}</h1>
       <h2>Essential Links <em>家庭</em></h2>
       <h1>body</h1>
+      <h1>body</h1>
+      <h1>body</h1>
+      <h1>body</h1>
+      <h1>body</h1>
+      <h1>body</h1>
+      <h1>body</h1>
+      <h1>body</h1>
+      <h1>body</h1>
+      <h1>body</h1>
+      <h1>body</h1>
+      <h1>body</h1>
+      <h1>body</h1>
+      <h1>body</h1>
+      <h1>body</h1>
+      <h1>body</h1>
+      <h1>body</h1>
+      <h1>body</h1>
+      <h1>body</h1>
+      <h1>body</h1>
+      <h1>body</h1>
+      <h1>body</h1>
+      <h1>body</h1>
+      <h1>body</h1>
+      <h1>body end</h1>
     </div>
     <vue-footer></vue-footer>
   </div>
 </template>
 
 <script>
-import vueHeader from './common/header.vue'
+import navbar from './common/navbar.vue'
 import vueFooter from './common/footer.vue'
 export default {
   name: 'HelloWorld',
@@ -21,7 +45,7 @@ export default {
     }
   },
   components: {
-    vueHeader,
+    navbar,
     vueFooter
   }
 }
