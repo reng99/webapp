@@ -32,7 +32,7 @@
       font-size:1.6rem;
       line-height:4.4rem;
       .logo{
-        text-align:center;
+        text-align:left;
       }
       .search{
         width:100%;
@@ -42,7 +42,7 @@
         display:block;
       }
       .login{
-        text-align:center;
+        text-align:right;
       }
     }
   }

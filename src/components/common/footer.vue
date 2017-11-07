@@ -1,11 +1,9 @@
 <template>
   <footer class="page-footer">
-    <div class="container">
-      <div class="row no-margin">
-        <a href="javascript:;" class="col s3 link" v-for="tab in friLinks">
-          {{tab.name}}
-        </a>
-      </div>
+    <div class="row no-margin">
+      <a href="javascript:;" class="col s3 link" v-for="tab in friLinks">
+        {{tab.name}}
+      </a>
     </div>
     <div class="footer-copyright">
       <div class="container">
@@ -53,6 +51,8 @@
     font-size:1.4rem;
     background:#f7f7f7;
     padding-bottom:4.4rem;
+    max-width:60rem;
+    margin:0 auto;
     .link{
       text-align:center;
       border-right:.1rem solid #e5e5e5;

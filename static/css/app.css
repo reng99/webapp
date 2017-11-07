@@ -84,6 +84,7 @@ table{
 .border-radius6{border-radius:6rem !important;}
 
 .main-color{color:#09c7d1 !important;}
+.default-color{color:#999 !important;}
 .main-bg{background:#f7f7f7 !important;}
 .main-border{border:1px solid #e5e5e5 !important;}
 
@@ -92,5 +93,17 @@ table{
   max-width:60rem !important;
   margin:0 auto;
 }
+
+
+
+/* SVG ICON FOR BACKGROUND */
+.tmt-icons-home{background: url('../icons/svg/icon_home_off.svg') center center no-repeat;background-size:98%;}
+.icon-a-on i.tmt-icons-home{background: url('../icons/svg/icon_home.svg') center center no-repeat;background-size:98%;}
+.tmt-icons-sell{background: url('../icons/svg/tmt_icons_sell_off.svg') center center no-repeat;background-size:cover;}
+.icon-a-on i.tmt-icons-sell{background: url('../icons/svg/tmt_icons_sell.svg') center center no-repeat;background-size:cover;}
+.tmt-icons-buy{background: url('../icons/svg/tmt_icons_buy_off.svg') center center no-repeat;background-size:cover;}
+.icon-a-on i.tmt-icons-buy{background: url('../icons/svg/tmt_icons_buy.svg') center center no-repeat;background-size:cover;}
+.tmt-icons-mine{background: url('../icons/svg/tmt_icons_mine_off.svg') center center no-repeat;background-size:cover;}
+.icon-a-on i.tmt-icons-mine{background: url('../icons/svg/tmt_icons_mine.svg') center center no-repeat;background-size:cover;}
 
 

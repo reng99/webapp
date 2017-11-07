@@ -1,9 +1,9 @@
 <template>
   <div>
     <navbar></navbar>
-    <div id="body_container" class="index">
+    <div id="body_container" class="tmt-buy">
       <div style="height:50rem;">
-         index placeholder
+         buy placeholder
       </div>
     </div>
     <vue-footer></vue-footer>
@@ -16,7 +16,7 @@ import navbar from './common/navbar.vue'
 import vueFooter from './common/footer.vue'
 import toolbar from './common/toolbar.vue'
 export default {
-  name: 'HelloWorld',
+  name: 'tmt-buy',
   data () {
     return {
 
@@ -30,9 +30,8 @@ export default {
 }
 </script>
 
-<!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="less">
-  .index{
-    background:blue;
+  .tmt-buy{
+    background:yellow;
   }
 </style>

@@ -1,9 +1,9 @@
 <template>
   <div>
     <navbar></navbar>
-    <div id="body_container" class="index">
+    <div id="body_container" class="personal_center">
       <div style="height:50rem;">
-         index placeholder
+         personal placeholder
       </div>
     </div>
     <vue-footer></vue-footer>
@@ -30,9 +30,8 @@ export default {
 }
 </script>
 
-<!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="less">
-  .index{
-    background:blue;
+  .personal_center{
+    background:red;
   }
 </style>
