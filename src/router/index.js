@@ -4,6 +4,7 @@ import Index from '@/components/index'
 import Buy from '@/components/buy'
 import Sell from '@/components/sell'
 import PersonalCenter from '@/components/personal_center'
+import Login from '@/components/login'
 
 Vue.use(Router)
 
@@ -28,6 +29,11 @@ export default new Router({
       path: '/personalCenter',
       name: 'PersonalCenter',
       component: PersonalCenter
+    },
+    {
+      path: '/login',
+      name: 'Login',
+      component: Login
     }
   ]
 })

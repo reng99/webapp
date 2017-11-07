@@ -2,11 +2,11 @@
   <div class="navbar-fixed">
     <nav class="nav-wrapper">
       <div class="row no-margin">
-        <div class="col s3 logo main-color">淘米淘</div>
-        <div class="col s6 no-padding margin-top6">
-          <input class="search no-margin no-border border-radius6" type="text" placeholder="搜商品，共4800件好物品">
+        <router-link class="col s3 logo main-color" :to="{path:'/'}">淘米淘</router-link>
+        <div class="col s7 no-padding margin-top6">
+          <input class="search no-margin no-border border-radius-4" type="text" placeholder="搜商品，共4800件好物品">
         </div>
-        <div class="col s3 login main-color">登录</div>
+        <router-link :to="{path:'/login'}" class="col s2 login main-color">登录</router-link>
       </div>
     </nav>
   </div>

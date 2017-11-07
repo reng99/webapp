@@ -1,12 +1,11 @@
 <template>
   <div class="toolbar">
     <ul class="row">
-      <li v-for="list in toolLists" class="col s3 no-padding">
-        <a href="javascript:;" class="default-color" :class="list.curClass">
+      <li v-for="(list,index) in toolLists" class="col s3 no-padding">
+        <router-link :to="{path:list.url}" class="default-color" @click.native="changeActiveToolbar(index)" :class="{'icon-a-on':list.id==activeToolbar}">
           <i :class="list.class"></i>
-          <span v-if="list.curClass" class="main-color">{{list.name}}</span>
-          <span v-else>{{list.name}}</span>
-        </a>
+          <span :class="{'main-color':list.id==activeToolbar}">{{list.name}}</span>
+        </router-link>
       </li>
     </ul>
   </div>
@@ -21,29 +20,37 @@ export default {
         {
           name: '首页',
           url: '/',
-          param: '1',
-          class: 'tmt-icons-home',
-          curClass: 'icon-a-on'
+          id: '0',
+          class: 'tmt-icons-home'
         },
         {
           name: '我要买',
-          url: '/',
-          param: '2',
+          url: '/buy',
+          id: '1',
           class: 'tmt-icons-buy'
         },
         {
           name: '我要卖',
-          url: '/',
-          param: '3',
+          url: '/sell',
+          id: '2',
           class: 'tmt-icons-sell'
         },
         {
           name: '个人中心',
-          url: '/',
-          param: '4',
+          url: '/personalCenter',
+          id: '3',
           class: 'tmt-icons-mine'
         }
-      ]
+      ],
+      activeToolbar: 0
+    }
+  },
+  methods: {
+    changeActiveToolbar (index) {
+      console.log(index)
+      let vm = this
+      vm.activeToolbar = index
+      return false
     }
   }
 }

@@ -82,6 +82,7 @@ table{
 .no-border{border:0 !important;}
 
 .border-radius6{border-radius:6rem !important;}
+.border-radius-4{border-radius:.4rem !important;}
 
 .main-color{color:#09c7d1 !important;}
 .default-color{color:#999 !important;}
