@@ -25,7 +25,7 @@
 
     </div>
     <vue-footer></vue-footer>
-    <toolbar></toolbar>
+    <toolbar :toolId=toolId />
   </div>
 </template>
 
@@ -37,7 +37,7 @@ export default {
   name: 'HelloWorld',
   data () {
     return {
-
+      toolId: 0
     }
   },
   components: {

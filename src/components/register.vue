@@ -1,11 +1,11 @@
 <template>
-  <div id="login">
+  <div id="register">
     <div class="main">
-      login-page
+      register-page
     </div>
-    <div class="register-hint">
-      <span>没有账号</span>&nbsp;
-      <router-link :to="{path:'/register'}" class="main-color">立即注册</router-link>
+    <div class="login-hint">
+      <span>已有账号</span>&nbsp;
+      <router-link :to="{path:'/login'}" class="main-color">立即登录</router-link>
     </div>
   </div>
 
@@ -25,7 +25,7 @@
 </script>
 
 <style scoped lang="less">
-  #login{
+  #register{
     position: absolute;
     top: 0;
     left: 0;
@@ -37,9 +37,9 @@
     margin:0 auto;
     .main{
       flex-grow: 1;
-      background:blue;
+      background:red;
     }
-    .register-hint{
+    .login-hint{
       flex-shrink: 0;
       height:4.4rem;
       display:flex;

@@ -1,29 +1,29 @@
 <template>
   <div>
-    <navbar></navbar>
+    <gamebar></gamebar>
     <div id="body_container" class="tmt-sell">
       <div style="height:50rem;">
          sell placeholder
       </div>
     </div>
     <vue-footer></vue-footer>
-    <toolbar></toolbar>
+    <toolbar :toolId=toolId />
   </div>
 </template>
 
 <script>
-import navbar from './common/navbar.vue'
+import gamebar from './snippet/gamebar.vue'
 import vueFooter from './common/footer.vue'
 import toolbar from './common/toolbar.vue'
 export default {
   name: 'tmt-sell',
   data () {
     return {
-
+      toolId: 2
     }
   },
   components: {
-    navbar,
+    gamebar,
     vueFooter,
     toolbar
   }

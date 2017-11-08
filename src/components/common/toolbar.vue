@@ -2,9 +2,9 @@
   <div class="toolbar">
     <ul class="row">
       <li v-for="(list,index) in toolLists" class="col s3 no-padding">
-        <router-link :to="{path:list.url}" class="default-color" @click.native="changeActiveToolbar(index)" :class="{'icon-a-on':list.id==activeToolbar}">
+        <router-link :to="{path:list.url}" class="default-color" :class="{'icon-a-on':list.id==toolId}">
           <i :class="list.class"></i>
-          <span :class="{'main-color':list.id==activeToolbar}">{{list.name}}</span>
+          <span :class="{'main-color':list.id==toolId}">{{list.name}}</span>
         </router-link>
       </li>
     </ul>
@@ -41,17 +41,17 @@ export default {
           id: '3',
           class: 'tmt-icons-mine'
         }
-      ],
-      activeToolbar: 0
+      ]
+    }
+  },
+  props: {
+    toolId: {
+      type: Number,
+      default: 0
     }
   },
   methods: {
-    changeActiveToolbar (index) {
-      console.log(index)
-      let vm = this
-      vm.activeToolbar = index
-      return false
-    }
+
   }
 }
 </script>
