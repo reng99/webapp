@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="80px" height="80px" viewBox="0 0 80 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
+    <title>king_icon1</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="效果图" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="11_王者荣耀专区_1首页-copy" transform="translate(-53.000000, -1920.000000)">
+            <g id="购买流程" transform="translate(0.000000, 1804.000000)">
+                <g id="标题" transform="translate(37.000000, 40.000000)">
+                    <g id="Group-3" transform="translate(0.000000, 76.000000)">
+                        <g id="king_icon1" transform="translate(16.000000, 0.000000)">
+                            <path d="M40,80 L40,77 C19.5654643,77 3,60.4345357 3,40 C3,19.5654643 19.5654643,3 40,3 C60.4345357,3 77,19.5654643 77,40 L80,40 C80,17.90861 62.09139,0 40,0 C17.90861,0 0,17.90861 0,40 C0,62.09139 17.90861,80 40,80 Z" id="Oval" fill="#C7A26F" fill-rule="nonzero"></path>
+                            <path d="M44.5,68.5 L53.5,77.5" id="Line-6-Copy-3" stroke="#C7A26F" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+                            <path d="M54.5,55.5 L77,77" id="Line-6-Copy-2" stroke="#C7A26F" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" transform="translate(65.500000, 66.000000) scale(-1, 1) translate(-65.500000, -66.000000) "></path>
+                            <path d="M31,20 L39,28" id="Line-6" stroke="#C7A26F" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+                            <path d="M40,20 L48,28" id="Line-6-Copy" stroke="#C7A26F" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" transform="translate(44.000000, 24.000000) scale(-1, 1) translate(-44.000000, -24.000000) "></path>
+                            <path d="M25.9563785,33 L53.0381712,33" id="Line-8" stroke="#C7A26F" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+                            <path d="M24,47 L56,47" id="Line-8-Copy" stroke="#C7A26F" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+                            <path d="M39.5,28.5 L40,61" id="Line-9" stroke="#C7A26F" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

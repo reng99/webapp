@@ -1,11 +1,11 @@
 <template>
   <footer class="page-footer">
-    <div class="row no-margin">
-      <a href="javascript:;" class="col s3 link" v-for="tab in friLinks">
-        {{tab.name}}
-      </a>
+    <div class="row no-margin" v-if="false">
+      <div class="col s3 center no-padding" v-for="tab in friLinks">
+        <router-link :to="{ path:tab.url,query:{id:tab.param}}" class="link">{{tab.name}}</router-link>
+      </div>
     </div>
-    <div class="footer-copyright">
+    <div class="footer-copyright" v-if="false">
       <div class="container">
         <p>Copyright &copy; 2017  淘米淘，All Rights Reserved</p>
         <p>粤ICP备17007389</p>
@@ -22,7 +22,7 @@
         friLinks: [
           {
             name: '关于我们',
-            url: '/article',
+            url: '/help',
             param: '1'
           },
           {
@@ -37,7 +37,7 @@
           },
           {
             name: '客服中心',
-            url: '/article',
+            url: '/help',
             param: '4'
           }
         ]
@@ -48,7 +48,7 @@
 
 <style scoped lang="less">
   .page-footer{
-    font-size:1.4rem;
+    font-size:1rem;
     background:#f7f7f7;
     padding-bottom:4.4rem;
     max-width:60rem;
@@ -62,7 +62,7 @@
       }
     }
     .footer-copyright{
-      font-size:1.3rem;
+      font-size:1rem;
       background:#f7f7f7;
       p{
         color:#666;

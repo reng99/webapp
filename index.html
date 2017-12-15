@@ -12,21 +12,58 @@
     <title>淘米淘webapp</title>
     <!-- IE8,IE9 SUPPORT HTML5 AND CSS3 -->
     <!--[if lte IE 8]>
-      <script type="text/javascript" scr="./static/lib/selectivizr/selectivizr-min.js"></script>
+      <script type="text/javascript" scr="static/lib/selectivizr/selectivizr-min.js"></script>
     <![endif]-->
     <!--[if lt IE 9]>
         <script src="https://cdn.bootcss.com/livingston-css3-mediaqueries-js/1.0.0/css3-mediaqueries.min.js"></script>
         <script src="https://cdn.bootcss.com/html5shiv/r29/html5.min.js"></script>
     <![endif]-->
     <!--Import materialize.css-->
-    <link type="text/css" rel="stylesheet" href="/static/lib/materialize/css/materialize.min.css"  media="screen,projection"/>
+    <style type="text/css">
+    .loading-wrap .mask {
+      position: absolute;
+      width: 60px;
+      height: 60px;
+      left: 50%;
+      top: 50%;
+      margin-left: -30px;
+      margin-top: -30px;
+      text-align: center;
+
+    }
+    .loading-wrap .mask img{
+      width: 40px;
+      background: rgba(0,0,0,0.4);
+      padding: 10px;
+      border-radius: 5px;
+    }
+    .loading-wrap {
+      position: fixed;
+      top: 0;
+      z-index: 10000;
+      width: 100%;
+      height: 100%;
+    }
+    </style>
+    <link type="text/css" rel="stylesheet" href="/static/lib/materialize/css/materialize.css"  media="screen,projection"/>
     <link rel="stylesheet" href="/static/css/app.css">
   </head>
   <body>
+    <noscript>
+      <div style="width: 100%;height: 100%;display: flex;align-items: center;justify-content: center;">
+        您需要开启 javascript 功能才能浏览本webapp
+      </div>
+    </noscript>
+    <div class="loading-wrap"><div class="mask"><img src="/static/imgs/oval.svg"/></div></div>
     <div id="app"></div>
     <script src="/static/lib/jquery/jquery.min.js"></script>
-    <script src="/static/lib/materialize/js/materialize.min.js"></script>
+    <!-- <script src="static/lib/materialize/js/materialize.min.js"></script> -->
     <script src="/static/lib/hammer/hammer.min.js"></script>
     <!-- built files will be auto injected -->
+    <script type="text/javascript">
+       $(document).ready(function(){
+        $(".loading-wrap").hide();
+       })
+    </script>
   </body>
 </html>

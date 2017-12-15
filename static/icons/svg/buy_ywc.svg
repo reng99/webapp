@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="43px" height="48px" viewBox="0 0 43 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
+    <title>buy_ywc</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="12" y="2" width="26" height="10" rx="5"></rect>
+    </defs>
+    <g id="标注" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="个人中心_买家中心" transform="translate(-454.000000, -555.000000)">
+            <g id="我的订单" transform="translate(0.000000, 420.000000)">
+                <g id="订单分类" transform="translate(0.000000, 103.000000)">
+                    <g id="Group-4-Copy-4" transform="translate(435.666667, 30.000000)">
+                        <g id="buy_ywc" transform="translate(15.000000, 0.000000)">
+                            <rect id="Rectangle-13" stroke="#666666" stroke-width="3" x="4.83333333" y="7.5" width="40" height="41" rx="5"></rect>
+                            <g id="Rectangle-14">
+                                <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                                <rect stroke="#666666" stroke-width="3" x="13.5" y="3.5" width="23" height="7" rx="3.5"></rect>
+                            </g>
+                            <path d="M16.8333333,28.5 L23.3541486,35.0208153" id="Line-6-Copy-2" stroke="#666666" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+                            <path d="M23.3841146,22.5 L35.8841146,35.0208153" id="Line-6-Copy-3" stroke="#666666" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" transform="translate(29.608724, 28.918945) scale(-1, 1) translate(-29.608724, -28.918945) "></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

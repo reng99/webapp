@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="39px" height="50px" viewBox="0 0 39 50" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
+    <title>buy_gb</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="标注" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="个人中心_买家中心" transform="translate(-643.000000, -556.000000)" stroke="#666666" stroke-width="3">
+            <g id="我的订单" transform="translate(0.000000, 420.000000)">
+                <g id="订单分类" transform="translate(0.000000, 103.000000)">
+                    <g id="Group-4-Copy-5" transform="translate(604.000000, 30.000000)">
+                        <g id="buy_gb" transform="translate(33.000000, 0.000000)">
+                            <path d="M11,46.5 L40,46.5 C41.9253582,46.5 43.5,44.8895708 43.5,42.8863636 L43.5,8.11363636 C43.5,6.11042916 41.9253582,4.5 40,4.5 L11,4.5 C9.07464185,4.5 7.5,6.11042916 7.5,8.11363636 L7.5,42.8863636 C7.5,44.8895708 9.07464185,46.5 11,46.5 Z" id="Rectangle-15"></path>
+                            <path d="M30,51.4121094 L34.772557,46.6395524" id="Line-11-Copy" stroke-linecap="round" stroke-linejoin="round" transform="translate(32.500000, 49.000000) scale(1, -1) translate(-32.500000, -49.000000) "></path>
+                            <path d="M30,46.5297852 L34.8212638,41.7085214" id="Line-11-Copy-2" stroke-linecap="round" stroke-linejoin="round"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

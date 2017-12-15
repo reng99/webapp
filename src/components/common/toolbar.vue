@@ -2,7 +2,7 @@
   <div class="toolbar">
     <ul class="row">
       <li v-for="(list,index) in toolLists" class="col s3 no-padding">
-        <router-link :to="{path:list.url}" class="default-color" :class="{'icon-a-on':list.id==toolId}">
+        <router-link :to="{path:list.url}" class="color99" :class="{'icon_a_on':list.id==toolId}">
           <i :class="list.class"></i>
           <span :class="{'main-color':list.id==toolId}">{{list.name}}</span>
         </router-link>
@@ -62,11 +62,13 @@ export default {
     position:fixed;
     width:100%;
     bottom:0;
+    left: 0;
+    z-index: 997;
     .row{
       max-width:60rem;
       margin:0 auto;
       height:4.4rem;
-      font-size:1.4rem;
+      font-size:1.2rem;
       text-align:center;
       li a{
         display:flex;

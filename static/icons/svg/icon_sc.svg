@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="51px" height="35px" viewBox="0 0 51 35" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
+    <title>icon_sc</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="效果图" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="首页展开" transform="translate(-82.000000, -564.000000)" fill="#09C7D1">
+            <g id="功能区-copy" transform="translate(1.000000, 456.000000)">
+                <g id="功能按钮" transform="translate(35.466667, 78.000000)">
+                    <g id="Group-4">
+                        <g id="Group-8" transform="translate(45.600000, 30.000000)">
+                            <path d="M50.6666667,8.75 L50.6666667,4 C50.6666667,1.790861 48.8758057,-4.05812251e-16 46.6666667,0 L4,0 L4,0 C1.790861,4.05812251e-16 -2.705415e-16,1.790861 0,4 L0,4 L0,8.75 L50.6666667,8.75 Z M50.6666667,13.75 L50.6666667,31 C50.6666667,33.209139 48.8758057,35 46.6666667,35 L4,35 C1.790861,35 2.705415e-16,33.209139 0,31 L0,13.75 L50.6666667,13.75 Z M7.56666667,21.25 C6.18595479,21.25 5.06666667,22.3692881 5.06666667,23.75 C5.06666667,25.1307119 6.18595479,26.25 7.56666667,26.25 L12.7,26.25 C14.0807119,26.25 15.2,25.1307119 15.2,23.75 C15.2,22.3692881 14.0807119,21.25 12.7,21.25 L12.7,21.25 L7.56666667,21.25 Z" id="icon_sc"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

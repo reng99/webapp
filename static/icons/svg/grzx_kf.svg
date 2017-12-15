@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="43px" height="39px" viewBox="0 0 43 39" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
+    <title>grzx_kf</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M32,14 L36.089447,14 L36.089447,14 C39.6792979,14 42.589447,16.9101491 42.589447,20.5 L42.589447,22.2011719 L42.589447,22.2011719 C42.589447,25.7910227 39.6792979,28.7011719 36.089447,28.7011719 L32,28.7011719 L32,14 Z" id="path-1"></path>
+        <path d="M10.589447,15 L10.589447,29.7011719 L6.25740051,29.7011719 C2.80153364,29.7011719 0,27.0272592 0,23.7288208 L0,20.9723511 C0,17.6739127 2.80153364,15 6.25740051,15 L10.589447,15 Z" id="path-2"></path>
+    </defs>
+    <g id="标注" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="个人中心_买家中心" transform="translate(-29.000000, -1037.000000)">
+            <g id="列表" transform="translate(-1.000000, 701.000000)">
+                <g id="列表-copy-3" transform="translate(0.000000, 306.000000)">
+                    <g id="Group-4" transform="translate(30.000000, 27.000000)">
+                        <g id="grzx_kf" transform="translate(0.000000, 3.000000)">
+                            <path d="M7,22.7236842 L7,16.2763158 L7,16.2763158 C7,8.3917243 13.4918711,2 21.5,2 L21.5,2 L21.5,2 L21.5,2 C29.5081289,2 36,8.3917243 36,16.2763158 L36,22.7236842 L36,22.7236842 C36,30.6082757 29.5081289,37 21.5,37 L21.5,37 L21.5,37" id="Rectangle-17" stroke="#CCCCCC" stroke-width="3"></path>
+                            <rect id="Rectangle-20" fill="#CCCCCC" x="17" y="33" width="9" height="6" rx="3"></rect>
+                            <g id="Rectangle-19">
+                                <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                                <path stroke="#CCCCCC" stroke-width="3" d="M33.5,15.5 L33.5,27.2011719 L36.089447,27.2011719 C38.8508708,27.2011719 41.089447,24.9625956 41.089447,22.2011719 L41.089447,20.5 C41.089447,17.7385763 38.8508708,15.5 36.089447,15.5 L33.5,15.5 Z"></path>
+                            </g>
+                            <g id="Rectangle-19-Copy-2">
+                                <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-2"></use>
+                                <path stroke="#CCCCCC" stroke-width="3" d="M9.08944702,16.5 L6.25740051,16.5 C3.61472079,16.5 1.5,18.5183869 1.5,20.9723511 L1.5,23.7288208 C1.5,26.182785 3.61472079,28.2011719 6.25740051,28.2011719 L9.08944702,28.2011719 L9.08944702,16.5 Z"></path>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

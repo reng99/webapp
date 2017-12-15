@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="35px" height="42px" viewBox="0 0 35 42" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
+    <title>tab_user</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="标注" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="首页展开" transform="translate(-634.000000, -3082.000000)" stroke-width="3">
+            <g id="底部-copy-3" transform="translate(0.000000, 3068.000000)">
+                <g id="个人中心" transform="translate(611.000000, 14.000000)">
+                    <g id="tab_user" transform="translate(20.000000, 0.000000)">
+                        <circle id="Oval-3" stroke="#666666" cx="20.5" cy="14.5" r="12.5"></circle>
+                        <path d="M20.7877995,27.5064784 C15.4235397,27.3646636 10.2616368,29.5572344 6.63923562,33.5162248 L5.37738364,34.8953266 C4.81300439,35.5121473 4.5,36.3179125 4.5,37.1539698 C4.5,39.0018578 5.99800924,40.4998671 7.8458973,40.4998671 L33.2636191,40.4998671 C34.0501773,40.4998671 34.8100465,40.2146144 35.4022987,39.6970132 C36.7538114,38.515853 36.8919095,36.462716 35.7107493,35.1112033 L34.8376875,34.1122244 C31.2826699,30.0444852 26.1881949,27.6492484 20.7877995,27.5064784 Z" id="Rectangle-10" stroke="#666666"></path>
+                        <path d="M16,19 C19.4146728,21.6666667 22.4146728,21.6666667 25,19" id="Path-2" stroke="#979797" stroke-linecap="round"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
