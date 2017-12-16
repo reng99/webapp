@@ -1,10 +1,12 @@
 # webapp
 
-give a star for this repository if you like it.:blush:
+如果你喜欢本仓库，那就点个星星了 :blush:
+
+:warning: 本仓库代码仅仅供学习使用哦
 
 > vue-cli to achieve a webapp
 
-## how to use it
+## 怎么使用
 
 ```bash
 
@@ -25,3 +27,33 @@ give a star for this repository if you like it.:blush:
   $ npm run build
 
 ```
+
+你可以参考下面的图片运行（dev 环境）
+
+![run_dev.png](./images/run_dev.png)
+
+![show_succ.png](./images/show_succ.png)
+
+## 运行的gif效果
+
+![demo.gif](./images/demo.gif)
+
+
+## 一些主要页面的截图
+
+![register.png](./images/register.png)
+
+![login.png](./images/login.png)
+
+![index.png](./images.index.png)
+
+![buy.png](./images/buy.png)
+
+![goods_lists.png](./images/goods_lists.png)
+
+![goods_detail.png](./images/goods_detail.png)
+
+![personal_center.png](./images/personal_center.png)
+
+
+
