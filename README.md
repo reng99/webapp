@@ -4,7 +4,9 @@
 
 :warning: 本仓库代码仅仅供学习使用哦
 
-> vue-cli to achieve a webapp
+## 运行的gif效果
+
+![demo.gif](./images/demo.gif)
 
 ## 怎么使用
 
@@ -33,10 +35,6 @@
 ![run_dev.png](./images/run_dev.png)
 
 ![show_succ.png](./images/show_succ.png)
-
-## 运行的gif效果
-
-![demo.gif](./images/demo.gif)
 
 
 ## 一些主要页面的截图
