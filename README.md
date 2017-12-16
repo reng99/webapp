@@ -37,7 +37,7 @@
 ![show_succ.png](./images/show_succ.png)
 
 
-## 一些主要页面的截图
+## 一些主要页面的截图,详情请运行本仓库查看
 
 ![register.png](./images/register.png)
 
