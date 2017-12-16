@@ -43,7 +43,7 @@
 
 ![login.png](./images/login.png)
 
-![index.png](./images.index.png)
+![index.png](./images/index.png)
 
 ![buy.png](./images/buy.png)
 
